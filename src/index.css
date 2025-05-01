@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.test {
+    @apply bg-amber-200 text-amber-600 text-2xl text-white flex items-center justify-center;
+}
+
+
