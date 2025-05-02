@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Plane = () => {
+export const Plane = () => {
     return (
-        <div>Plane</div>
+        <mesh>
+        </mesh>
     );
 };
-export default Plane;
+

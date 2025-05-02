@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Bird = () => {
+export const Bird = () => {
     return (
-        <div>Bird</div>
+        <mesh>
+        </mesh>
     );
 };
-export default Bird;
+

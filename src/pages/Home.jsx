@@ -36,13 +36,20 @@ const Home = () => {
                     <hemisphereLight
                         skyColor="#b1e1ff"
                         groundColor="#000000"
-                        intensity={ 1 }
-                    />
+                        intensity={ 1 } />
+
                     <Sky />
 
-                    <Island position={ islandPosition }
-                            rotation={ [0.1, 4.7077, 0] }
-                            scale={ islandScale } />
+                    <Bird />
+
+                    <Plane />
+
+                    <Island
+                        position={ islandPosition }
+                        rotation={ [0.1, 4.7077, 0] }
+                        scale={ islandScale }
+                    />
+
                 </Suspense>
             </Canvas>
         </section>
